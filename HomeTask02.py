@@ -1,15 +1,9 @@
 # 1.	Найти сумму чисел списка стоящих на нечетной позиции
 # Пример:[1,2,3,4] -> 4
 
-# spisok = [1, 2, 3, 4, 5, 6, 7, 8 ]
-
-# def Sum_not_even_numbers(list):
-#     sum = 0
-#     for i in list:
-#         if i % 2 != 0:
-#             sum = list[i-1] + sum
-#     return sum
-# print(spisok, ' -> ', Sum_not_even_numbers(spisok))
+# spisok = [1, 2, 3, 4, 5, 6, 7, 8]
+# even = list(filter(lambda x: x % 2 != 0, spisok))
+# print(f'{even} -> {sum(even)}')
 
 # 2.	Найти произведение пар чисел в списке. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 # Пример: [2, 3, 4, 5, 6] => [12, 15, 16]; [2, 3, 5, 6] => [12, 15]

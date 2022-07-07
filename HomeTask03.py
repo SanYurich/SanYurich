@@ -18,7 +18,7 @@
 #             break
 #         count += 1
 #     return nok
-# 
+
 # numA = int(input("Введите первое значение: "))
 # numB = int(input("Введите второе значение: "))
 # print("Наименьший общий множитель из ", numA, " и ",
